@@ -1,0 +1,37 @@
+.list-container {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.left-container {
+  display: flex;
+}
+.right-container {
+  background-color: transparent;
+  border: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  margin-right: 10px;
+}
+.time {
+  color: #64748b;
+  font-weight: bold;
+  margin-right: 50px;
+}
+.title {
+  color: #475569;
+  font-weight: bold;
+  margin-right: 15px;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 30px;
+  align-self: center;
+}
+.domain {
+  color: #64748b;
+}
